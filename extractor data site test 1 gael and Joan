@@ -1,0 +1,19 @@
+npm install -g npm
+node -v
+npm -v
+git clone https://github.com/builderio/gpt-crawler
+cd gpt-crawler
+npm install
+config.ts
+import { Config } from "./src/config"; 
+
+export const defaultConfig: Config = {
+  url: "https://web-scraping.dev/products",
+  match: "https://web-scraping.dev/product/**",
+  maxPagesToCrawl: 10,
+  outputFileName: "output.json",
+  maxTokens: 2000000,
+npm start
+
+--if want to start only on CLI (terminal / poxershell) 
+npm run start -- --url https://web-scraping.dev/products --match https://web-scraping.dev/product/** --maxPagesToCrawl 10 --outputFileName output.json --maxTokens 2000000
