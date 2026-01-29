@@ -5,6 +5,6 @@ install : bieutifulsoup4
 
 >>> import requests
 ...
-... URL = "https://shorturl.at/d5Gx5"
-... page = requests.get(URL)
+... URL = "https://shorturl.at/d5Gx5" (url of the site)
+... page = requests.get(URL) (url of the page) 
 ... print(page.text)
