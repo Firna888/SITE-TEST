@@ -1,0 +1,10 @@
+BEOFRE !!!
+
+install : bieutifulsoup4 
+
+
+>>> import requests
+...
+... URL = "https://shorturl.at/d5Gx5"
+... page = requests.get(URL)
+... print(page.text)
